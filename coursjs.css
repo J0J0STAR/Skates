@@ -1,0 +1,97 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+  }
+
+body{
+    margin: 0%;
+    text-decoration: none;
+    background:rgb(8, 2, 2);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 800;
+    text-align: end;
+}
+
+a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+h1{
+    left: 30rem;
+    position: fixed;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 5rem;
+    font-weight: 900;
+    color: rgb(255, 251, 251);
+}
+
+p{
+    color:whitesmoke;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1rem;
+    font-weight: 900;
+}
+#logo{
+    width: 90px;
+    position: fixed;
+    top:50px;
+    height: -300px;
+    left: 50px;
+
+}
+
+section{
+    max-width: 1024;
+    margin-top: auto;
+    margin-left: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items:center ;
+
+}
+button{
+    min-width: 100px;
+    padding: auto;
+    border-radius: 20px 0px;
+    color: rgb(249, 249, 253);
+    background-color: rgb(236, 236, 5);
+    font-size: 20px;
+    font-weight: 900;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+.navbar{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 1cm;
+    gap: 2rem;
+    justify-content: end;
+}
+
+
+.shop img{
+    justify-content: space-between;
+    width: 300px;
+    gap: 20px;
+}
+
+.shop{
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+@media screen and (min-width:1000px ){
+.navbar{
+    flex-direction: row;
+}
+.navbar{
+    justify-content: row;
+};
+    
+}
